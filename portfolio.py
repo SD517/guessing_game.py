@@ -81,7 +81,7 @@ if selected == "Contact":
     left_col, right_col = st.columns((2,1))
     with left_col:
         st.write("[Connect with me on LinkedIn](https://www.linkedin.com/in/dharhsini-s-80993b314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app )")
-        st.write("[My_GitHub_Profile](https://github.com/SD517)")
+        st.write("[My_GitHub_Profile](https://www.linkedin.com/in/dharhsini-s-80993b314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app )")
     with right_col:
         st_lottie(lottie_contact, height = 300)
         
