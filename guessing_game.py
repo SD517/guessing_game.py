@@ -58,7 +58,6 @@ elif st.session_state.game_stage == 'computer_guessing':
             st.write("Starting a new game.")
             st.session_state.game_stage = 'user_guessing'
             st.session_state.target_number = random.randint(1,50)
-
             st.session_state.attempts = 0
             st.session_state.machine_low = 1
             st.session_state.machine_high = 50
